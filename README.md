@@ -6,14 +6,14 @@ In this lab you must create a valid html page with an HTML form on it that submi
 ## Requirements
 
 Use the following controls in your form:  
-[x] - Single line text fields
-[x] - Multi line text area
-[x] - Drop Down Menu
-[x] - Radio Buttons
-[x] - Checkboxes
-[x] - Hidden field
-[x] - Proper label tags on all the controls
-[x] - Use the fieldset & legend on the form surrounding some controls where appropriate
+- [x] Single line text fields
+- [x] Multi line text area
+- [x] Drop Down Menu
+- [x] Radio Buttons
+- [x] Checkboxes
+- [x] Hidden field
+- [x] Proper label tags on all the controls
+- [x] Use the fieldset & legend on the form surrounding some controls where appropriate
 
 ## Instructions
 ```
