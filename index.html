@@ -5,12 +5,10 @@
     <title>ITMD-361 Fundamentals of Web Development</title>
   </head>
   <body>
-     <!----------------------------------------------->
     <header>
       <h1>Volunteer Form</h1>
       <p>Fill out this form if you want to live.</p>
     </header>
-    <!----------------------------------------------->
     <section> 
       <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
         <fieldset>
@@ -49,37 +47,6 @@
             <option value="55 - 64">55 - 64</option>
             <option value="65 and over">65 and over</option>
           </select>
-          <!--
-          <p>Age:</p>
-          <p>
-            <input type="radio" id="ageunder18" name="age_field" value="under 18">
-            <label for="ageunder18">under 18</label>
-          </p>
-          <p>
-            <input type="radio" id="age18-24" name="age_field" value="18 - 24">
-            <label for="age18-24">18 - 24</label>
-          </p>
-          <p>
-            <input type="radio" id="age25-34" name="age_field" value="25 - 34">
-            <label for="age25-34">25 - 34</label>
-          </p>
-          <p>
-            <input type="radio" id="age35-44" name="age_field" value="35 - 44">
-            <label for="age35-44">35 - 44</label>
-          </p>
-          <p>
-            <input type="radio" id="age45-54" name="age_field" value="45 - 54">
-            <label for="age45-54">45 - 54</label>
-          </p>
-          <p>
-            <input type="radio" id="age55-64" name="age_field" value="55 - 64">
-            <label for="age55-64">55 - 64</label>
-          </p>
-          <p>
-            <input type="radio" id="ageover65" name="age_field" value="65 and over">
-            <label for="ageover65">65 and over</label>
-          </p>
-          -->
         </fieldset>
         <p></p>
         <fieldset>
@@ -121,23 +88,33 @@
             <textarea id="comments" name="comments_field" placeholder="Begin typing here..."></textarea>
           </p>
         </fieldset>
-        <fieldset >
+        <table>
+        <tr>
+          <td>
+        <fieldset>
           <legend>Submit</legend>
-          <label for="submitbutton">Submit:</label>
+          <label for="submitbutton"></label>
           <input type="submit" id="submitbutton" value="SUBMIT">
-          <label for="submitbutton">Reset:</label>
-          <input type="reset" id="resetbutton" value="RESET">
-          <input type="hidden" name="hidden_field" value="jhuebner@hawk.iit.edu">
         </fieldset>
+          </td>
+        <td>
+        <fieldset>
+          <legend>Reset</legend>
+          <label for="submitbutton"></label>
+          <input type="reset" id="resetbutton" value="RESET">
+        </fieldset>
+        </td>
+        </tr>
+        </table>
+        <input type="hidden" name="hidden_field" value="jhuebner@hawk.iit.edu">
       </form>
     </section>
-     <!----------------------------------------------->
     <footer>
       <address>
         <p>Contact Information</p>
         <p><strong>Author:</strong> Jacob Huebner – <strong>Github:</strong> <a href="https://github.com/JakerHuber"> JakerHuber</a></p>
         <p>If you have any questions, please email me at: <a href="mailto:jhuebner@hawk.iit.edu">jhuebner@hawk.iit.edu</a></p>
       </address>
-    </footer>\\
+    </footer>
   </body>
 </html>
