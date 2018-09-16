@@ -11,64 +11,66 @@
       <p>Fill out this form if you want to live.</p>
     </header>
     <!----------------------------------------------->
-    <section> <!-- My info-->
-      <h2>My Info</h2>
-      <p>Please fill out your information in the boxes below.</p>
-     
+    <section> 
       <form action="/lab3formscript.php" method="post">
-        <p>
-          <label for="firstname">First Name:</label>
-          <input type="text" id="firstname" name="first_name_field" placeholder="first name here">
-        </p>
-        <p>
-          <label for="lastname">Last Name:</label>
-          <input type="text" id="lastname" name="last_name_field" placeholder="last name here">
-        </p>
-        <p>
-          <label for="phonenumber">Phone Number:</label>
-          <input type="text" id="phonenumber" name="phone_field" placeholder="phone number here">
-        </p>
-        <p>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email_field" placeholder="email here">
-        </p>
-        <p>Gender:
-          <label for="gendermale">Male</label>
-          <input type="radio" id="gendermale" name="gender_field" value="male" >
-          <label for="genderfemale">Female</label>
-          <input type="radio" id="genderfemale" name="gender_field" value="female" >
-        </p>
-        <p>Age:</p>
-        <p>
-          <input type="radio" id="ageunder18" name="age_field" value="under 18">
-          <label for="ageunder18">under 18</label>
-        </p>
-        <p>
-          <input type="radio" id="age18-24" name="age_field" value="18 - 24">
-          <label for="age18-24">18 - 24</label>
-        </p>
-        <p>
-          <input type="radio" id="age25-34" name="age_field" value="25 - 34">
-          <label for="age25-34">25 - 34</label>
-        </p>
-        <p>
-          <input type="radio" id="age35-44" name="age_field" value="35 - 44">
-          <label for="age35-44">35 - 44</label>
-        </p>
-        <p>
-          <input type="radio" id="age45-54" name="age_field" value="45 - 54">
-          <label for="age45-54">45 - 54</label>
-        </p>
-        <p>
-          <input type="radio" id="age55-64" name="age_field" value="55 - 64">
-          <label for="age55-64">55 - 64</label>
-        </p>
-        <p>
-          <input type="radio" id="ageover65" name="age_field" value="65 and over">
-          <label for="ageover65">65 and over</label>
-        </p>
-        
-        <section>
+        <div>
+          <h2>My Info</h2>
+          <p>Please fill out your information in the boxes below.</p>
+          <p>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="first_name_field" placeholder="first name here">
+          </p>
+          <p>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="last_name_field" placeholder="last name here">
+          </p>
+          <p>
+            <label for="phonenumber">Phone Number:</label>
+            <input type="text" id="phonenumber" name="phone_field" placeholder="phone number here">
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email_field" placeholder="email here">
+          </p>
+          <p>Gender:
+            <label for="gendermale">Male</label>
+            <input type="radio" id="gendermale" name="gender_field" value="male" >
+            <label for="genderfemale">Female</label>
+            <input type="radio" id="genderfemale" name="gender_field" value="female" >
+          </p>
+          <p>Age:</p>
+          <p>
+            <input type="radio" id="ageunder18" name="age_field" value="under 18">
+            <label for="ageunder18">under 18</label>
+          </p>
+          <p>
+            <input type="radio" id="age18-24" name="age_field" value="18 - 24">
+            <label for="age18-24">18 - 24</label>
+          </p>
+          <p>
+            <input type="radio" id="age25-34" name="age_field" value="25 - 34">
+            <label for="age25-34">25 - 34</label>
+          </p>
+          <p>
+            <input type="radio" id="age35-44" name="age_field" value="35 - 44">
+            <label for="age35-44">35 - 44</label>
+          </p>
+          <p>
+            <input type="radio" id="age45-54" name="age_field" value="45 - 54">
+            <label for="age45-54">45 - 54</label>
+          </p>
+          <p>
+            <input type="radio" id="age55-64" name="age_field" value="55 - 64">
+            <label for="age55-64">55 - 64</label>
+          </p>
+          <p>
+            <input type="radio" id="ageover65" name="age_field" value="65 and over">
+            <label for="ageover65">65 and over</label>
+          </p>
+        </div>
+        <div>
+          <h2>My Availability</h2>
+          <p>Please select when you are avaliable with the boxes below.</p>
           <p>Days Available:</p>
           <p>
             <input type="checkbox" id="sunday" name="available_field" value="sunday">
@@ -98,15 +100,8 @@
             <input type="checkbox" id="saturday" name="available_field" value="saturday">
             <label for="saturday">Saturday</label>
           </p>
-        </section>
-
+        </div>
       </form>
-      
-    </section>
-    <!----------------------------------------------->
-    <section> <!-- My Availability-->
-      <h2>My Availability</h2>
-      <p>Please select when you are avaliable with the boxes below.</p>
     </section>
      <!----------------------------------------------->
     <footer>
