@@ -12,7 +12,7 @@
     </header>
     <!----------------------------------------------->
     <section> 
-      <form action="/lab3formscript.php" method="post">
+      <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
         <div>
           <h2>My Info</h2>
           <p>Please fill out your information in the boxes below.</p>
@@ -33,10 +33,10 @@
             <input type="email" id="email" name="email_field" placeholder="email here">
           </p>
           <p>Gender:
-            <label for="gendermale">Male</label>
             <input type="radio" id="gendermale" name="gender_field" value="male" >
-            <label for="genderfemale">Female</label>
+            <label for="gendermale">Male</label>
             <input type="radio" id="genderfemale" name="gender_field" value="female" >
+            <label for="genderfemale">Female</label>
           </p>
           <p>Age:</p>
           <p>
@@ -100,13 +100,18 @@
             <input type="checkbox" id="saturday" name="available_field" value="saturday">
             <label for="saturday">Saturday</label>
           </p>
+          <p></p>
+          <label for="comments">Any Comments?</label>
+          <p>
+            <textarea id="comments" name="comments_field" placeholder="Begin typing here..."></textarea>
+          </p>
         </div>
       </form>
     </section>
      <!----------------------------------------------->
     <footer>
       <address>
-        <p>Contact</p>
+        <p>Contact Information</p>
         <p><strong>Author:</strong> Jacob Huebner – <strong>Github:</strong> <a href="https://github.com/JakerHuber"> JakerHuber</a></p>
         <p>If you have any questions, please email me at: <a href="mailto:jhuebner@hawk.iit.edu">jhuebner@hawk.iit.edu</a></p>
       </address>
